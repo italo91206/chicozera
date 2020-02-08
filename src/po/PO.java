@@ -1,21 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package po;
 
-/**
- *
- * @author Aluno
- */
-public class PO {
+import metodos.BuscaSequencial;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.println("teste");
+
+public class PO {
+    
+    public static void buscaSequencial(){
+        int vetor[] = new int[] {5, 2, 10, 3, 7, 1, 9, 8};
+        
+        BuscaSequencial busca = new BuscaSequencial(vetor);  
+        busca.exibeVetor();
+        System.out.println("Posição é: " + busca.start(9));
     }
+    
+    public static void main(String[] args) {
+        System.out.println("Descomente a função desejada. Sinta-se livre para alterar o vetor também.");
+        //buscaSequencial();
+    }   
     
 }
