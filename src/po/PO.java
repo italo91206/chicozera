@@ -14,7 +14,7 @@ public class PO {
     }
     
     public static void main(String[] args) {
-        System.out.println("Descomente a função desejada. Sinta-se livre para alterar o vetor também.");
+        System.out.println("Descomente a função desejada. Sinta-se livre para alterar o vetor também (não esquecer da chave de busca).");
         //buscaSequencial();
     }   
     
